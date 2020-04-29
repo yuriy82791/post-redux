@@ -1,0 +1,91 @@
+.post-wrapper {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.post {
+  background-color: #15202B;
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  width: calc(50% - 15px);
+  margin-bottom: 20px;
+}
+
+
+
+.author-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.author-avatar img {
+  width: 100%;
+  height: auto;
+}
+
+.post-content-wrapper {
+  padding-left: 15px;
+  color: #fff;
+  width: calc(100% - 100px);
+}
+
+.post-heading {
+  padding: 8px 0 15px;
+}
+
+.author-name,
+.author-nickname,
+.post-date,
+.sep,
+.post-content p {
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.author-nickname,
+.post-date,
+.sep {
+  color: #8899A6;
+}
+
+.author-name {
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.post-content p {
+  margin-bottom: 15px;
+}
+
+.post-content img {
+  border-radius: 15px;
+  width: 100%;
+}
+
+.post-data {
+  display: flex;
+  flex-direction: row;
+  color: #8899A6;
+  padding-top: 15px;
+}
+
+.post-data span {
+  font-size: 22px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 33%;
+}
+
+.post-data span svg {
+  margin-right: 20px;
+}
+
+.post-data svg path {
+  fill: #8899A6;
+}
